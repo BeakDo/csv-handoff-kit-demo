@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'none'">
+<title>CSV handoff report</title><style>body{font:16px system-ui,sans-serif;max-width:1100px;margin:40px auto;padding:0 24px;color:#182b34;background:#fafaf8}h1{font-size:36px}h2{margin-top:36px}table{border-collapse:collapse;width:100%;background:white}td,th{border:1px solid #cdd7d9;padding:12px;text-align:left;white-space:pre-wrap;overflow-wrap:anywhere}th{background:#e6efed}code{overflow-wrap:anywhere}.summary{padding:22px;background:#e6efed;line-height:2}small{color:#465b64}</style>
+<h1>CSV handoff report</h1><p>Exact record comparison · CSV Change Check 1.1</p>
+<div class="summary">before rows: <strong>3</strong> · after rows: <strong>3</strong> · added: <strong>1</strong> · removed: <strong>1</strong> · changed: <strong>1</strong> · unchanged: <strong>1</strong></div><p>Matching columns: <strong>order_id</strong></p>
+<h2>Changed fields</h2><table><thead><tr><th>Key</th><th>Column</th><th>Before</th><th>After</th></tr></thead><tbody><tr><td>&quot;001&quot;</td><td>status</td><td>pending</td><td>shipped</td></tr></tbody></table><h2>Added records</h2><table><thead><tr><th>order_id</th><th>item</th><th>status</th></tr></thead><tbody><tr><td>004</td><td>Pencil</td><td>pending</td></tr></tbody></table><h2>Removed records</h2><table><thead><tr><th>order_id</th><th>item</th><th>status</th></tr></thead><tbody><tr><td>003</td><td>Folder</td><td>pending</td></tr></tbody></table>
+<h2>Recheck this handoff</h2><p>Keep the original two files. Run verify_handoff.py with the ZIP and both originals to recompute and compare the result. Do not edit the exported files first.</p>
+<p>Before SHA-256: <code>f0cb5f3dc9d6cd7311fa45a0fe970623ccd0dfd6f9febe84f40d6ea4fd9b33d3</code><br>After SHA-256: <code>58f4d6735e423868009b9b6453a64831aa374b199788b68ab2f6beca2f3bdd85</code></p>
+<p>Input encodings: utf-8-sig → utf-8-sig. Comma-separated; exact text comparison; no normalization.</p>
+<small>This report contains source data. Share only with authorized recipients. Hashes identify bytes; they do not prove authorship, approval, or authenticity. No spreadsheet formulas or scripts are executed by this report.</small></html>

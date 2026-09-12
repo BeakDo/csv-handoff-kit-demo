@@ -1,0 +1,4 @@
+order_id,item,status
+001,Notebook,shipped
+002,Pen,shipped
+004,Pencil,pending
